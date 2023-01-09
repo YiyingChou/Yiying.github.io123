@@ -11507,3 +11507,21 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+
+{
+box-sizing: border-box;
+margin: 0;
+passing: 0;
+}
+
+{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.girl{
+  width: 400px;
+  clip-path: circle();
+}
